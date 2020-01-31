@@ -1,2 +1,2 @@
 # project-hangman
-Attempted to code a version of Hangman in one hour
+A version of Hangman created to practice testing user input and reading in JSON files.
