@@ -1,0 +1,32 @@
+package wongandrew_hangman;
+
+import java.util.Scanner;
+
+public class Main {
+	
+	// Global Scanner
+	private static Scanner scanner = new Scanner(System.in);
+	
+	// Main
+	public static void main(String[] args) {
+		initializeStartup();
+	}
+	
+	// Set up how the game will choose a word
+	private static void initializeStartup() {
+		// Introduce the Game and the purpose
+		System.out.println("Welcome to Hangman!");
+		System.out.println("Coded in Java in a thirty-minute challenge by Andrew Wong.\n");
+		
+		// Prompt for a word or to read a word bank
+		System.out.println("Would you like to");
+		System.out.println("\t1) Suggest a word");
+		System.out.println("\t2) Be assigned a random word from our word bank");
+		System.out.println("\t3) Be assigned a random word from a word bank you supply");
+		System.out.print("My choice is to: ");
+		
+		String choice = scanner.nextLine();
+		
+		
+	}
+}

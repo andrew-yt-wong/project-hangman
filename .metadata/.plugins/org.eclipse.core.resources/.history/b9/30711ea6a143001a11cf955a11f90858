@@ -1,0 +1,18 @@
+package wongandrew_hangman;
+
+public class Main {
+	
+	public static void main(String[] args) {
+		
+	}
+	
+	public static void initializeStartup() {
+		// Introduce the Game and the purpose
+		System.out.println("Welcome to Hangman!");
+		System.out.println("Coded in Java in a thirty-minute challenge by Andrew Wong.\n");
+		
+		// Prompt for a word or to read a word bank
+		System.out.println("Would you like to"suggest a word or choose a random word from the word bank?: ")
+		
+	}
+}
